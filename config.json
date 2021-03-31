@@ -1,0 +1,47 @@
+var clientId="eg0zdzrod3bh9k8bnuh3na5ct5oi3jjd";
+
+//Main page
+var redirectAfterLoginPage="/lennar/main.html";
+
+//Navigation
+var navigation=[
+
+  {
+      "page":"landing.html",
+      "title":"Lennar"
+  },
+  
+  {
+      "page":"folder1.html",
+      "title":"My House",
+      "boxId":"126036673645"
+  },
+  {
+      "page":"folder2.html",
+      "title":"Mortgage",
+      "boxId":"126036759934"
+  },
+  {
+    "page":"tree_local.html",
+    "title":"Box Files",
+    "boxId":"0"
+},
+  {
+    "page":"preview1.html",
+    "title":"Virtual Tour",
+    "boxId":"740828239940"
+},
+  {
+      "page":"https://ld-demo.app.box.com/f/d14aa38ada5d4d7c985db75ba84fe6dd",
+      "title":"Upload Document"
+  },
+  {
+      "page":"map_folder.html",
+      "title":"MAP",
+      "boxId":"126036673645",
+      "latitude":25.5563500,
+      "longitude":-80.3609297,
+      "zoomLevel":15
+    }
+     
+];
